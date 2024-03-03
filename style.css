@@ -20,6 +20,17 @@ body{
 
 .faq-container{
     width:350px;
-    padding:20px;
+    padding:25px;
     background:hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.faq-container .faq-header{
+    display: flex;
+    gap:30px;
+    font-size: 20px;
+}
+
+.faq-container .faq-header img{
+    width: 30px;
 }
