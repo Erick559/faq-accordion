@@ -28,6 +28,10 @@ body{
     border-radius: 10px;
 }
 
+.faq-container div:last-child{
+    border: none;
+}
+
 .faq-header{
     display: flex;
     gap:30px;
