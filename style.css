@@ -65,3 +65,17 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(assets/images/background-pattern-desktop.svg);
+    }
+
+    .faq-container{
+        width:550px;
+    }
+
+    .header-title{
+        font-size: 40px;
+    }
+}
