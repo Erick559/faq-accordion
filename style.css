@@ -38,6 +38,10 @@ body{
     font-size: 15px;
 }
 
+.drop-btn{
+    cursor:pointer;
+}
+
 .faq-container .faq-header img{
     width: 30px;
 }
@@ -73,6 +77,7 @@ body{
 
     .faq-container{
         width:550px;
+        padding:35px;
     }
 
     .header-title{
