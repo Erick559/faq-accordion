@@ -59,4 +59,5 @@ body{
 .content{
     color:hsl(292, 16%, 49%);
     font-size: 16px;
+    font-weight: 600;
 }
