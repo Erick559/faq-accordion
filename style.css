@@ -19,6 +19,9 @@ body{
 }
 
 .faq-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
     width:350px;
     padding:25px;
     background:hsl(0, 0%, 100%);
@@ -28,9 +31,25 @@ body{
 .faq-container .faq-header{
     display: flex;
     gap:30px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .faq-container .faq-header img{
     width: 30px;
+}
+
+.faq-section{
+    margin-bottom: 20px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.section-header .section-title{
+    font-size:17px;
+    font-weight: 700;
+    flex:1;
 }
