@@ -1,1 +1,1 @@
-### FAQ-Accordion Component Front-End Mentors
+# FAQ-Accordion Component Front-End Mentors
