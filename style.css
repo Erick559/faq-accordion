@@ -73,6 +73,9 @@ body{
     color:hsl(292, 16%, 49%);
     font-size: 16px;
     font-weight: 600;
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 200ms ease;
 }
 
 @media screen and (min-width: 600px) {
