@@ -59,6 +59,10 @@ body{
     cursor: pointer;
 }
 
+.section-header .icons .minus-icon{
+    display: none;
+}
+
 .section-header .section-title{
     font-size:17px;
     font-weight: 700;
