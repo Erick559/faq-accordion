@@ -8,6 +8,15 @@ accordionItems.forEach(accordionItem => {
     const plusIcon = this.querySelector('.plus-icon')
     const minusIcon = this.querySelector('.minus-icon')
 
-    console.log(minusIcon)
+    if(sectionContent.style.maxHeight){
+      sectionContent.style.maxHeight = null;
+      plusIcon.style.display = 'block';
+      minusIcon.style.display = 'none';
+    }
+    else{
+      sectionContent.style.maxHeight = sectionContent.scrollHeight + 'px';
+      plusIcon.style.display = 'none';
+      minusIcon.style.display = 'block';
+    }
   })
 })
