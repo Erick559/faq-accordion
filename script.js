@@ -5,6 +5,9 @@ accordionItems.forEach(accordionItem => {
     this.classList.toggle('active')
 
     const sectionContent = this.nextElementSibling;
-    console.log(sectionContent)
+    const plusIcon = this.querySelector('.plus-icon')
+    const minusIcon = this.querySelector('.minus-icon')
+
+    console.log(minusIcon)
   })
 })
